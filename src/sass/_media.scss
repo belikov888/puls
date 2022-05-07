@@ -40,16 +40,29 @@
       }
     }
   }
+
   .benefits {
     padding: 46px 0 40px 0;
+    h2 {
+      font-size: 26px;
+    }
     &__item {
       width: 220px;
     }
-    &__header {
-      font-size: 26px;
-    }
     &__wrapper {
       margin-top: 46px;
+    }
+  }
+
+  .consultation {
+    padding: 75px 0 65px 0;
+    .title {
+      &_left {
+        font-size: 26px;
+      }
+    }
+    &__descr {
+      font-size: 18px;
     }
   }
 }
@@ -74,10 +87,13 @@
     }
   }
   .button {
-    width: 132px;
     &_main {
       width: 200px;
       margin-top: 32px;
+    }
+    &_submit {
+      width: 300px;
+      height: 46px;
     }
   }
   .promo {
@@ -106,7 +122,7 @@
   }
   .benefits {
     padding: 32px 0 24px 0;
-    &__header {
+    h2 {
       font-size: 24px;
     }
     &__wrapper {
@@ -121,6 +137,23 @@
     &__title {
       margin-top: 25px;
       font-size: 16px;
+    }
+  }
+  .consultation {
+    min-height: 435px;
+    padding: 24px 0 50px 0;
+    .title {
+      &_left {
+        font-size: 24px;
+        line-height: 46px;
+      }
+    }
+
+    .feed-form {
+      margin-top: 25px;
+      input {
+        height: 40px;
+      }
     }
   }
 }
@@ -161,18 +194,43 @@
       width: 95px;
     }
   }
+
   .benefits {
-    &__header {
+    h2 {
       font-size: 22px;
     }
     &__wrapper {
       margin-top: 10px;
       flex-direction: column;
     }
+
     &__item {
       width: 275px;
       margin: 0 auto;
       margin-top: 15px;
+    }
+  }
+  .consultation {
+    // min-height: 435px;
+    // padding: 24px 0 50px 0;
+    .title {
+      &_left {
+        font-size: 22px;
+        line-height: 36px;
+        text-align: center;
+      }
+    }
+
+    &__descr {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .feed-form {
+      margin-top: 25px;
+      input {
+        height: 40px;
+      }
     }
   }
 }
