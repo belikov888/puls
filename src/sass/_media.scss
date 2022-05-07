@@ -1,0 +1,178 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+  .promo {
+    padding-bottom: 40px;
+    &__wrapper {
+      margin-top: 70px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 700px;
+  }
+  .button_main {
+    margin-top: 50px;
+    width: 250px;
+    height: 46px;
+    font-size: 14px;
+  }
+  .promo {
+    min-height: 476px;
+    &__header {
+      font-size: 36px;
+    }
+    &__wrapper {
+      margin-top: 46px;
+    }
+    &__subheader {
+      font-size: 18px;
+    }
+    &__icons {
+      margin-top: 46px;
+    }
+    &__link {
+      font-size: 12px;
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+  .benefits {
+    padding: 46px 0 40px 0;
+    &__item {
+      width: 220px;
+    }
+    &__header {
+      font-size: 26px;
+    }
+    &__wrapper {
+      margin-top: 46px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 530px;
+  }
+  .header {
+    &__official {
+      display: none;
+    }
+    img {
+      width: 85%;
+    }
+    &__contacts {
+      flex-direction: row;
+    }
+    &__phone {
+      font-size: 14px;
+      margin: auto 8px;
+    }
+  }
+  .button {
+    width: 132px;
+    &_main {
+      width: 200px;
+      margin-top: 32px;
+    }
+  }
+  .promo {
+    min-height: 400px;
+    &__wrapper {
+      margin-top: 36px;
+    }
+    &__header {
+      font-size: 28px;
+    }
+    &__subheader {
+      font-size: 14px;
+    }
+    &__icons {
+      width: 330px;
+    }
+    &__icon {
+      width: 108px;
+      font-size: 12px;
+    }
+    &__link {
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+  .benefits {
+    padding: 32px 0 24px 0;
+    &__header {
+      font-size: 24px;
+    }
+    &__wrapper {
+      margin-top: 36px;
+    }
+    &__item {
+      width: 175px;
+    }
+    &__descr {
+      font-size: 12px;
+    }
+    &__title {
+      margin-top: 25px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: 300px;
+  }
+  .header {
+    &__contacts {
+      flex-direction: column;
+    }
+    &__logo {
+      width: 160px;
+    }
+    &__phone {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+  }
+  .promo {
+    &__wrapper {
+      margin-top: 28px;
+      align-items: center;
+    }
+    &__header {
+      font-size: 26px;
+      text-align: center;
+      line-height: 36px;
+    }
+    &__subheader {
+      font-size: 12px;
+    }
+    &__icons {
+      width: 300px;
+    }
+    &__icon {
+      width: 95px;
+    }
+  }
+  .benefits {
+    &__header {
+      font-size: 22px;
+    }
+    &__wrapper {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+    &__item {
+      width: 275px;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+  }
+}
